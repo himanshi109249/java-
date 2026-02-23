@@ -5,7 +5,6 @@ public class ArmstrongNumber {
         System.out.println("Enter a number : ");
         int num= sc.nextInt();
         int originalNum= num;
-        //count digits
         int count=0;
         int temp=num;
         while (temp !=0){
@@ -13,7 +12,7 @@ public class ArmstrongNumber {
             count++;
         }
 
-        //calculate sum of digits to the power of count
+
        
         int sum=0;
         temp=num;
